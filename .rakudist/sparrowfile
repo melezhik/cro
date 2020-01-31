@@ -1,1 +1,3 @@
-package-install "gcc";
+package-install %(
+  centos => qqw{gcc openssl openssl-devel}
+);
