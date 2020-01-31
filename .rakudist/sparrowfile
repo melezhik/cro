@@ -1,3 +1,5 @@
 package-install %(
-  centos => qqw{gcc openssl openssl-devel}
+  alpine => qqw{make gcc libressl-dev},
+  centos => qqw{gcc openssl openssl-devel},
+  debian => qqw{make gcc libssl-dev},
 );
